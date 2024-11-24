@@ -1,0 +1,5 @@
+#全局异常处理器，在此配置文件中指向全局异常配置文件的位置。
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.heima.common.exception.ExceptionCatch,\
+  com.heima.common.swagger.SwaggerConfiguration,\
+  com.heima.common.swagger.Swagger2Configuration
